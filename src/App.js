@@ -24,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+      
       {/* <Header/> */}
       {/* <States name={"kerala"} lang={"malayalam"} />
       <States name={"karnataka"} lang={"kannada"}/> */}
@@ -32,13 +33,13 @@ function App() {
       <Changecolor/> */}
       {/* <Keys/> */}
       <Container>
-      {/* <Products/> */}
+      <Products/>
       {/* {<Effects/>} */}
       </Container>
       {/* {<Counter/>}
       {<Form/>} */}
-      <Main/>
-      <OpenModal/>
+      {/* <Main/>
+      <OpenModal/> */}
     </div>
   );
 }
