@@ -2,13 +2,17 @@ import "./App.css";
 import Header from "./components/Header";
 import States from "./components/States";
 import CheckNumber from "./components/Condition";
-import Ilyas from "./components/Ilyas";
+import Changecolor from "./components/Changecolor";
 import Keys from "./components/keys/Keys";
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Products from "./components/Products/Products";
 import { Container } from 'react-bootstrap';
 import Effects from "./components/Effects/Effects";
+import Counter from "./components/counter/Counter";
+import Form from "./components/Forms";
+import Main from "./components/pages/Main";
+
 
 function App() {
   const states=[{name:"kerala",language:"Malayalam"},
@@ -24,12 +28,15 @@ function App() {
       <States name={"karnataka"} lang={"kannada"}/> */}
       {/* <States states={states}/>
       <CheckNumber/>
-      <Ilyas/> */}
+      <Changecolor/> */}
       {/* <Keys/> */}
       <Container>
       {/* <Products/> */}
-      {<Effects/>}
+      {/* {<Effects/>} */}
       </Container>
+      {/* {<Counter/>}
+      {<Form/>} */}
+      <Main/>
     </div>
   );
 }
