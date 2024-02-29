@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Button, Container } from 'react-bootstrap';
 
-const Ilyas = () => {
+const Changecolor = () => {
     const [color, setColor] = useState("yellow");
     const [value, setValue] = useState(true);
 
@@ -26,4 +26,4 @@ const Ilyas = () => {
     );
 }
 
-export default Ilyas;
+export default Changecolor;
