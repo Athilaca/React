@@ -12,6 +12,7 @@ import Effects from "./components/Effects/Effects";
 import Counter from "./components/counter/Counter";
 import Form from "./components/Forms";
 import Main from "./components/pages/Main";
+import OpenModal from "./components/openmodal";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
       {/* {<Counter/>}
       {<Form/>} */}
       <Main/>
+      <OpenModal/>
     </div>
   );
 }
