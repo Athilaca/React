@@ -33,13 +33,13 @@ function App() {
       <Changecolor/> */}
       {/* <Keys/> */}
       <Container>
-      {/* <Products/> */}
+      <Products/>
       {/* {<Effects/>} */}
       </Container>
       {/* {<Counter/>}
       {<Form/>} */}
-      <Main/>
-      <OpenModal/>
+      {/* <Main/>
+      <OpenModal/> */}
     </div>
   );
 }
